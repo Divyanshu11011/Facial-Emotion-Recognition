@@ -8,7 +8,7 @@
     "routes": [
         {
             "src":"/(.*)", 
-            "dest":"expression_ssd_detect.py"
+            "dest":"app.py"
         }
     ]
 } 
