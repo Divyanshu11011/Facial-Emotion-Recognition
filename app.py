@@ -194,7 +194,7 @@ def get_greeting():
 def gen_frames(): 
     global detected_emotion
     
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(-1)
     # Read ONNX model
     model = 'onnx_model.onnx'
     model = cv2.dnn.readNetFromONNX('emotion-ferplus-8.onnx')
